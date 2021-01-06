@@ -365,6 +365,10 @@ body {
 	}
 }
 
+
+
+
+
 .bloc1{
     width: 60%;
     text-align: center;
@@ -393,12 +397,27 @@ body {
 
 .bloc4{
     text-align: center;
+    display: flex;
+    justify-content:center;
 }
 .bloc4 img{
     height: 80px;
-    margin: 20px;
 }
 
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    margin: 18px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 2px;
+    text-align: center;
+}
 
 
 
