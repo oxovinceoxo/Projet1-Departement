@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projet 1 haute savoie</title>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+<!---------------------------Navbar!----------------------------->
+ <header>	
+	<nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="img/logo.png"></a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Les lieux incontournalbles</a></li>
+                    <li><a href="#">Marché et foire</a></li>
+                    <li><a href="#">Actualités</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+</header>
+<!---------------------------Navbar!----------------------------->
+
+
+    <section class="home">
+    	<section class="bloc1">
+			<h1>La haute savoie</h1>
+				<p>Lors de la Révolution française, le territoire savoyard est uni à la France en 1792. ... 
+					À la suite du traité de Turin et après un plébiscite en 1860, le duché de Savoie est annexé à la France. Le département de la Haute Savoie est constitué à partir des trois provinces du nord (Chablais, Faucigny et Genevois).
+				</p>
+		</section>
+    </section>
+    
+
+
+
+<section class="bloc2">
+	<article id="textcarte">
+		<p>La Haute-Savoie est un département français faisant partie de la région Auvergne-Rhône-Alpes. L'Insee et la Poste lui attribuent le code 74. Les habitants de la Haute-Savoie sont les Haut-Savoyards.
+		</p>
+	</article>
+	<aside>
+		<img src="img/carte.jpg">
+	</aside>
+</section>
+
+<section class="bloc3">
+	<h1>Le climat de la Haute-Savoie:</h1>
+		<p>
+			Est subcontinental et, pour l'essentiel du département, montagnard froid et neigeux en hiver, doux et orageux en été. Les intersaisons (avril et octobre) sont en moyenne plus sèches, mais la pluviométrie est globalement l'une des plus élevées de France1.
+		</p>
+</section>
+
+<section class="bloc4">
+	<img src="img/printemps.jpg">
+	<img src="img/été.jpg">
+	<img src="img/automne.jpg">
+	<img src="img/hiver.jpg">
+</section>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
+</html>
