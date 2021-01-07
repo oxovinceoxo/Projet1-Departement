@@ -453,7 +453,36 @@ h5{
 
 /**************************page actualités***********************/
 
+#actualités{
+    width: 100%;
+    background-color: #071434;
+    background-position: center top;
+    background-size:cover;
+    padding-top: 200px; 
 
+}
+.actualités{
+display: flex;
+margin: 20px;
+}
+
+.actualités h3{
+    font-size: 28px;
+    color: white;
+    margin: 20px;
+}
+
+
+@media all and (max-width:750px){
+    .actualités{
+    display: block;
+    float: left;
+}
+.actualités{
+    width: 100%;
+    height: auto;
+}
+}
 
 
 /* 
