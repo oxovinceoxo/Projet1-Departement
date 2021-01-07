@@ -1,0 +1,2 @@
+-corriger bug navbar en reduction taille ecran 
+-corriger bug carousel qui déborde sur la navbar en reduction taille ecran 

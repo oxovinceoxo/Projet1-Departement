@@ -14,13 +14,16 @@ body {
 
 
 /****************************** Navbar ********************************/
+.slider{
 
+}
 .nav {
     width: 100%;
-    height: 65px;
+    max-height: 65px;
     position: fixed;
     line-height: 65px;
     text-align: center;
+    z-index: 10;
 }
 
 .nav div.logo {
@@ -98,13 +101,14 @@ body {
 
 /* Media qurey section */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
     .container {
         margin: 0;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1000px) {
+
     .navTrigger {
         display: block;
     }
@@ -404,6 +408,17 @@ body {
     height: 80px;
 }
 
+@media all and (max-width:700px){
+    .bloc4{
+    display: block;
+    float: left;
+}
+.bloc4 img{
+    width: 100%;
+    height: auto;
+}
+}
+
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
@@ -419,14 +434,25 @@ figcaption {
     text-align: center;
 }
 
+/**************************page les lieux incontournables***********************/
+
 .home2 {
     width: 100%;
-    height: 770px;
+    height: 635px;
     background-color: #071434;
     background-position: center top;
     background-size:cover;
-    padding-top: 20%; 
+    padding-top: 120px; 
+
 }
+
+h5{
+ color: yellow;
+ font-size: 40px;
+}
+
+/**************************page actualités***********************/
+
 
 
 
