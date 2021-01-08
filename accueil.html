@@ -19,7 +19,7 @@
                 <ul class="navlinks">
                     <li><a href="#">Accueil</a></li>
                     <li><a href="les lieux incontournables.html">Les lieux incontournalbles</a></li>
-                    <li><a href="#">Marché et foire</a></li>
+                    <li><a href="marché et foire.html">Marché et foire</a></li>
                     <li><a href="actualités.html">Actualités</a></li>
                 </ul>
             </div>
@@ -33,7 +33,7 @@
 </header>
 <!---------------------------Navbar!----------------------------->
 
-
+<div class="page1">
     <section class="home container-fluid">
     	<section class="bloc1">
 			<h1>La haute savoie</h1>
@@ -46,17 +46,17 @@
 
 
 
-<section class="bloc2">
+<section class="container-fluid bloc2">
 	<article id="textcarte">
 		<p>La Haute-Savoie est un département français faisant partie de la région Auvergne-Rhône-Alpes. L'Insee et la Poste lui attribuent le code 74. Les habitants de la Haute-Savoie sont les Haut-Savoyards.
 		</p>
 	</article>
 	<aside>
-		<img src="img/carte.jpg">
+		<img class="container-fluid" src="img/carte.jpg">
 	</aside>
 </section>
 
-<section class="bloc3">
+<section class=" container-fluid bloc3">
 	<h1>Le climat de la Haute-Savoie:</h1>
 		<p>
 			Est subcontinental et, pour l'essentiel du département, montagnard froid et neigeux en hiver, doux et orageux en été. Les intersaisons (avril et octobre) sont en moyenne plus sèches, mais la pluviométrie est globalement l'une des plus élevées de France1.
@@ -65,24 +65,37 @@
 
 
 <section class="container-fluid bloc4">
-	<figure> 
-		<img src="img/printemps.jpg" alt="photo montage printemps">
-		<figcaption>printemps</figcaption>
-	</figure>
-	<figure> 	
-	<img src="img/été.jpg" alt="photo montage été">
-		<figcaption>été</figcaption>
-	</figure>
-	<figure> 
-	<img src="img/automne.jpg" alt="photo montage automne">
-		<figcaption>automne</figcaption>
-	</figure>
-	<figure> 
-	<img src="img/hiver.jpg" alt="photo montage hiver">
-		<figcaption>hiver</figcaption>
-	</figure>
-</section>
 
+	<figure> 
+		<a href="img/printemps.jpg">
+			<img src="img/printemps.jpg" alt="photo montage printemps">
+			<figcaption>printemps</figcaption>
+		</a>
+	</figure>
+
+	<figure> 
+		<a href="img/été.jpg">
+			<img src="img/été.jpg" alt="photo montage été">
+			<figcaption>été</figcaption>
+		</a>	
+	</figure>
+
+	<figure> 
+		<a href="img/automne.jpg">
+			<img src="img/automne.jpg" alt="photo montage automne">
+			<figcaption>automne</figcaption>
+		</a>
+	</figure>
+
+	<figure> 
+		<a href="img/hiver.jpg">
+			<img src="img/hiver.jpg" alt="photo montage hiver">
+			<figcaption>hiver</figcaption>
+		</a>
+	</figure>
+
+</section>
+</div>
 
 
 
@@ -103,6 +116,7 @@
                 $('.nav').removeClass('affix');
             }
         });
-    </script>
+	</script>
+	
 </body>
 </html>

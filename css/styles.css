@@ -9,14 +9,13 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
+    background-color: #071434;
 }
 
 
 
 /****************************** Navbar ********************************/
-.slider{
 
-}
 .nav {
     width: 100%;
     max-height: 65px;
@@ -369,8 +368,10 @@ body {
 	}
 }
 
-
-
+/**************************page accueil***********************/
+.page1{
+    background-color: white;
+}
 
 
 .bloc1{
@@ -386,23 +387,53 @@ body {
 .bloc2{
     display: flex;
     justify-content: center;
-    font-size: 22px;
+    font-size: 22px;   
 }
 
 #textcarte{
-    width: 40%;
+    width: 45%;
     margin: 20px;
-}
-.bloc3{
-    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
+
+
+@media all and (max-width:750px){
+    .bloc2{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    
+}
+#textcarte{
+    width: 76%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+
+
+.bloc3{
+    width: 40%;
+    font-size: 16px
+}
+@media all and (max-width:700px){
+	.bloc3 {
+		width: 100%;
+	}
+}
+
+
+
 
 .bloc4{
     text-align: center;
     display: flex;
     justify-content:center;
+    font-size: 16px;
 }
 .bloc4 img{
     height: 80px;
@@ -418,6 +449,8 @@ body {
     height: auto;
 }
 }
+
+
 
 figure {
     border: thin #c0c0c0 solid;
@@ -446,18 +479,13 @@ figcaption {
 
 }
 
-h5{
- color: yellow;
- font-size: 40px;
-}
 
 /**************************page actualités***********************/
 
 #actualités{
     width: 100%;
-    background-color: #071434;
-    background-position: center top;
-    background-size:cover;
+    height: auto;
+    
     padding-top: 200px; 
 
 }
@@ -476,12 +504,15 @@ margin: 20px;
 @media all and (max-width:750px){
     .actualités{
     display: block;
-    float: left;
-}
-.actualités{
     width: 100%;
     height: auto;
 }
+}
+
+/**************************page marché***********************/
+
+.marché{
+    border-radius: 10% / 50%;
 }
 
 
